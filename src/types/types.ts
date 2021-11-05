@@ -22,6 +22,6 @@ export type Value = "X" | "O" | null;
 export type BoardState = Value[];
 
 export interface GameState {
-  history: BoardState[],
-  step: number
+  history: BoardState[];
+  step: number;
 };
